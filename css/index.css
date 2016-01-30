@@ -1,0 +1,84 @@
+header{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	height: 65px;
+	width: 100%;
+	background-color: #128deb;
+}
+header .sitename{
+	float: left;
+	font-size: 28px;
+	color: #fff;
+	margin-top: 15px;
+	margin-left: 25px;
+	font-weight: bold;
+	font-family: 'cantarellregular';
+}
+header .linkRight{
+	float: right;
+	margin-top: 15px;
+	margin-right: 25px;
+	color: white;
+	font-size: 28px;
+}
+section{
+	margin-top: 70px;
+}
+section .left{
+	float: left;
+	margin-left: 2%;
+	width: 60%;
+	height: auto;
+	padding: 3%;
+	padding-right: 0px;
+	border-right: solid 2px #eee;
+}
+section .left img{
+	width: 80%;
+	height: auto;
+}
+section .right{
+	float: left;
+	padding-left: 15px;
+	width: 32%;
+}
+.card{
+	width:100%;
+	padding: 10px;
+	border-radius: 3px;
+	border:solid 1px #eee;
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+.card .head{
+	font-size: 24px;
+	font-weight: 600;
+	border-bottom: solid 1px #eee;
+	padding-bottom: 5px;
+	font-family: 'cantarellregular';
+}
+.form{
+	padding:10px;
+}
+.form input[type='text'], input[type='password']{
+	width: 95%;
+	border: solid 1px #efefef;
+	padding: 5px;
+	height: 20px;
+	border-radius: 3px;
+	margin-bottom: 3px;
+	font-family: 'cantarellregular';
+}
+.submitButton{
+	padding: 0px;
+	height: 40px;
+	width: 98%;
+	border-radius: 6px;
+	border: solid;
+	background-color: #2196F3;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 900;
+	font-family: 'cantarellregular';
+}
